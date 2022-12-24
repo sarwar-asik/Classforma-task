@@ -16,7 +16,7 @@ const DocumentPage = () => {
         {/* Left side */}
         <div className="">
           <h3> Label </h3>
-          <hr />
+          <hr /> nmmmmmm
           <p>
             <button className="btn-1">Tittle</button>
             <button className="btn-2"> Author</button>
