@@ -1,0 +1,17 @@
+.detail-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+}
+.btn-1{
+    border: none ;
+    background-color: orange;
+    padding: 5px;
+}
+.btn-2{
+    margin-left: 5px;
+    border: none ;
+    background-color: rgb(8, 161, 8);
+    padding: 5px;
+
+}
