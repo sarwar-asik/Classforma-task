@@ -33,8 +33,8 @@ const Home = () => {
           <ul className=' Documents'>
             {
               documents?.map(document =>{
-                const {id,name,data} = document
-                return <div onClick={()=>handleClick(document)}>{name}</div>
+                const {id, name, data} = document
+                return <div onClick={()=>handleClick(document)} className='link'>{name}</div>
               })
             }
           </ul>

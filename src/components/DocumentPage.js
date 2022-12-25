@@ -16,7 +16,7 @@ const DocumentPage = () => {
         {/* Left side */}
         <div className="">
           <h3> Label </h3>
-          <hr /> nmmmmmm
+          <hr /> 
           <p>
             <button className="btn-1">Tittle</button>
             <button className="btn-2"> Author</button>
@@ -24,15 +24,12 @@ const DocumentPage = () => {
           <p>
             <h3> Boxes </h3>
             <hr />
+            <h3> This section is updating soon .</h3>
           </p>
         </div>
         {/* Right Side  */}
         <div className="">
-          <iframe
-            src={data}
-            height="700px"
-            width="100%"
-            name="iframe_a"
+          <iframe src={data}   height="600px"  width="100%"   name="iframe_a"
           ></iframe>
         </div>
       </div>

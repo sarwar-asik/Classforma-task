@@ -5,3 +5,16 @@
     flex-direction: column;
     gap: 10px;
 }
+.link{
+    width:10rem;
+    padding: 5px 2px;
+
+
+}
+.link:hover{
+    background-color: rgb(6, 128, 128);
+    width:10rem;
+    padding: 5px 2px;
+    color: aliceblue;
+
+}
